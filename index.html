@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Cotton Cloud</title>
+		<meta charset="UTF-8" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/cloud.css">
+		
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap/bootstrap.min.js"></script>
+		<script src="js/all.min.js"></script>
+	</head>
+	
+	<body>
+		<header>
+		</header>
+		
+		<main>
+			<form action="submit_form.php" method="POST">
+				<div class="container-fluid">
+					<div class="row justify-content-center sign-in-wrapper">
+						<div class="col-4">
+							<div class="row">
+								<div class="col-12 text-center">
+									<img src="./images/logo.png" class="img-fluid" width="150px"/>
+								</div>
+								<div class="col-12 text-center">
+									<h1>COTTON CLOUD</h1>
+								</div>
+								<div class="col-12 login-input-wrapper pl-5 pr-5 mt-4 mb-3">
+									<input type="text" class="form-control account" name="account" value="" placeholder="Account">
+									<input type="password" class="form-control password" name="password" value="" placeholder="Password">
+								</div>
+								<div class="col-12 text-center pl-5 pr-5 mt-2 mb-3">
+									<button type="submit" class="btn btn-outline-primary btn-login btn_submit">Login</button>
+								</div>
+								<div class="col-12 text-center pl-5 pr-5 mt-3 mb-4">
+									<a href="#" class="forgot-password-link">Forgot Password?</a><br>
+									<span class="text-cloud-grey">or sign in with your social account</span>
+								</div>
+								<div class="col-6 text-center mb-4">
+									<button type="button" class="btn btn-outline-secondary btn-social-login btn_social_login">Facebook</button>
+								</div>
+								<div class="col-6 text-center mb-4">
+									<button type="button" class="btn btn-outline-secondary btn-social-login btn_social_login">Google</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</main>
+		
+		<footer>
+		</footer>
+		
+		<script>
+			$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+		</script>
+	</body>
+</html>

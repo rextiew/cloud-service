@@ -1,0 +1,62 @@
+.sign-in-wrapper{
+	margin-top: 5%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sign-in-wrapper h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #4663DB;
+	margin-top: 10px;
+}
+
+.login-input-wrapper input{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 0px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.login-input-wrapper ::-webkit-input-placeholder { /* Edge */
+  color: #8686A5;
+}
+.login-input-wrapper :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #8686A5;
+}
+.login-input-wrapper ::placeholder {
+  color: #8686A5;
+}
+
+.btn-login{
+	border-color: #3A84FF;
+	color: #3A84FF;
+	width: 90%;
+	height: 50px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+.forgot-password-link{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	border-bottom: 1px solid #8686A5;
+	color: #8686A5;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.forgot-password-link:hover{
+	border-color: #3A84FF;
+	text-decoration: unset;
+	color: #3A84FF;
+}
+.text-cloud-grey{
+	color: #8686A5;
+}
+.btn-social-login{
+	border-color: #8686A5;
+	color: #8686A5;
+	width: 70%;
+	margin: 0 auto;
+}
